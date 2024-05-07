@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Open Graph tags -->
     <meta property="og:title" content="DogiTech - Services d'électricité et de plomberie">
     <meta property="og:description" content="Chez DogiTech, nous sommes fiers d'offrir des services de qualité qui répondent à vos besoins électriques et sanitaires.">
-    <meta property="og:image" content="https://dogitech.be/public/logo-for-og.png">
+    <meta property="og:image" content="https://dogitech.be/public/logo.png">
     <meta property="og:url" content="https://dogitech.be/">
     <meta property="og:type" content="website">
 
@@ -58,12 +58,12 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DogiTech - Services d'électricité et de plomberie">
     <meta name="twitter:description" content="Chez DogiTech, nous sommes fiers d'offrir des services de qualité qui répondent à vos besoins électriques et sanitaires.">
-    <meta name="twitter:image" content="https://dogitech.be/public/logo-for-twitter.png">
+    <meta name="twitter:image" content="https://dogitech.be/public/logo.png">
 </head>
 
 <body>
     <header>
-        <img src="/public/logo.png" alt="Logo dogitech.be" height="50">
+        <img src="/public/logo.svg" alt="Logo dogitech.be">
         <strong>Fondé par Nicolas Dogimont</strong>
         <nav>
             <a href="mailto:nicolas@dogitech.be">nicolas@dogitech.be</a>

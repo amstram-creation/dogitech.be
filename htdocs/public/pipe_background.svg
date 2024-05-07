@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1925.75 1159.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        opacity: .2;
+      }
+
+      .cls-2 {
+        fill: #afafaf;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="1152.91" width="772.84" height="1159.33"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" y="109.58" width="1159.33" height="772.84"/>
+    </clipPath>
+  </defs>
+  <g id="Pipes_bis" data-name="Pipes bis" class="cls-5">
+    <g class="cls-4">
+      <g id="Groupe_52" data-name="Groupe 52">
+        <path id="Tracé_620" data-name="Tracé 620" class="cls-2" d="m1594.73,124.15c0,30.4,24.64,55.04,55.04,55.04h0v-23.8c-17.25-.02-31.22-13.99-31.24-31.24h-23.8Z"/>
+        <rect id="Rectangle_118" data-name="Rectangle 118" class="cls-2" x="1587.12" y="108.21" width="36.11" height="12.24"/>
+        <path id="Tracé_621" data-name="Tracé 621" class="cls-2" d="m1917.68,211.89c0-30.4-24.64-55.04-55.04-55.04h0v23.8c17.25.02,31.22,13.99,31.24,31.24h23.8Z"/>
+        <rect id="Rectangle_119" data-name="Rectangle 119" class="cls-2" x="1889.18" y="215.59" width="36.11" height="12.24"/>
+        <rect id="Rectangle_120" data-name="Rectangle 120" class="cls-2" x="1653.66" y="150.7" width="12.24" height="36.11"/>
+        <path id="Tracé_622" data-name="Tracé 622" class="cls-2" d="m1693.14,457.48c-30.4,0-55.04,24.64-55.04,55.04h0s23.8,0,23.8,0c.02-17.25,13.99-31.22,31.24-31.24v-23.8Z"/>
+        <rect id="Rectangle_121" data-name="Rectangle 121" class="cls-2" x="1630.49" y="516.4" width="36.11" height="12.24"/>
+        <rect id="Rectangle_122" data-name="Rectangle 122" class="cls-2" x="1587.12" width="36.11" height="12.24"/>
+        <rect id="Rectangle_123" data-name="Rectangle 123" class="cls-2" x="1593.28" y="15.94" width="23.8" height="88.56"/>
+        <rect id="Rectangle_124" data-name="Rectangle 124" class="cls-2" x="1846.7" y="150.7" width="12.24" height="36.11"/>
+        <path id="Tracé_623" data-name="Tracé 623" class="cls-2" d="m1864.56,479.44c30.4,0,55.04-24.64,55.04-55.04h0s-23.8,0-23.8,0c-.02,17.25-13.99,31.22-31.24,31.24v23.8Z"/>
+        <rect id="Rectangle_125" data-name="Rectangle 125" class="cls-2" x="1848.61" y="450.94" width="12.24" height="36.11"/>
+        <rect id="Rectangle_126" data-name="Rectangle 126" class="cls-2" x="1889.64" y="408.46" width="36.11" height="12.24"/>
+        <rect id="Rectangle_127" data-name="Rectangle 127" class="cls-2" x="1669.78" y="156.85" width="173.21" height="23.8"/>
+        <rect id="Rectangle_128" data-name="Rectangle 128" class="cls-2" x="1324.39" y="345.39" width="12.24" height="36.11"/>
+        <rect id="Rectangle_129" data-name="Rectangle 129" class="cls-2" x="1340.33" y="351.54" width="247.59" height="23.8"/>
+        <rect id="Rectangle_130" data-name="Rectangle 130" class="cls-2" x="1696.85" y="450.94" width="12.24" height="36.11"/>
+        <path id="Tracé_624" data-name="Tracé 624" class="cls-2" d="m1606.81,587.56c30.4,0,55.04-24.64,55.04-55.04h0s-23.8,0-23.8,0c-.02,17.25-13.99,31.22-31.24,31.24v23.8Z"/>
+        <rect id="Rectangle_131" data-name="Rectangle 131" class="cls-2" x="1258.68" y="733.65" width="36.11" height="12.24"/>
+        <path id="Tracé_625" data-name="Tracé 625" class="cls-2" d="m1233.65,804.82c30.4,0,55.04-24.64,55.04-55.04h0s-23.8,0-23.8,0c-.02,17.25-13.99,31.22-31.24,31.24v23.8Z"/>
+        <rect id="Rectangle_132" data-name="Rectangle 132" class="cls-2" x="1591.63" y="346.88" width="12.24" height="36.11"/>
+        <path id="Tracé_626" data-name="Tracé 626" class="cls-2" d="m1662.79,406.67c0-30.4-24.64-55.04-55.04-55.04h0v23.8c17.25.02,31.22,13.99,31.24,31.24h23.8Z"/>
+        <rect id="Rectangle_133" data-name="Rectangle 133" class="cls-2" x="1590.87" y="557.99" width="12.24" height="36.11"/>
+        <path id="Tracé_627" data-name="Tracé 627" class="cls-2" d="m1532.22,532.26c0,30.4,24.64,55.04,55.04,55.04h0v-23.8c-17.25-.02-31.22-13.99-31.24-31.24h-23.8Z"/>
+        <rect id="Rectangle_134" data-name="Rectangle 134" class="cls-2" x="1633.47" y="410.27" width="36.11" height="12.24"/>
+        <path id="Tracé_628" data-name="Tracé 628" class="cls-2" d="m1607.75,481.16c30.4,0,55.04-24.64,55.04-55.04h0s-23.8,0-23.8,0c-.02,17.25-13.99,31.22-31.24,31.24v23.8Z"/>
+        <rect id="Rectangle_135" data-name="Rectangle 135" class="cls-2" x="1525.68" y="516.32" width="36.11" height="12.24"/>
+        <path id="Tracé_629" data-name="Tracé 629" class="cls-2" d="m1587.63,457.57c-30.4,0-55.04,24.64-55.04,55.04h0s23.8,0,23.8,0c.02-17.25,13.99-31.22,31.24-31.24v-23.8Z"/>
+        <rect id="Rectangle_136" data-name="Rectangle 136" class="cls-2" x="1258.74" y="410.37" width="36.11" height="12.24"/>
+        <path id="Tracé_630" data-name="Tracé 630" class="cls-2" d="m1320.68,351.62c-30.4,0-55.04,24.64-55.04,55.04h0s23.8,0,23.8,0c.02-17.25,13.99-31.22,31.24-31.24v-23.8Z"/>
+        <rect id="Rectangle_137" data-name="Rectangle 137" class="cls-2" x="1217.44" y="774.18" width="12.24" height="36.11"/>
+        <path id="Tracé_631" data-name="Tracé 631" class="cls-2" d="m1213.74,781.01c-30.4,0-55.04,24.64-55.04,55.04h0s23.8,0,23.8,0c.02-17.25,13.99-31.22,31.24-31.24v-23.8Z"/>
+        <rect id="Rectangle_138" data-name="Rectangle 138" class="cls-2" x="1591.33" y="451.04" width="12.24" height="36.11"/>
+        <rect id="Rectangle_139" data-name="Rectangle 139" class="cls-2" x="1712.79" y="457.1" width="132.12" height="23.8"/>
+        <rect id="Rectangle_140" data-name="Rectangle 140" class="cls-2" x="1264.89" y="426.31" width="23.8" height="303.63"/>
+        <rect id="Rectangle_141" data-name="Rectangle 141" class="cls-2" x="1152.91" y="839.75" width="36.11" height="12.24"/>
+        <rect id="Rectangle_142" data-name="Rectangle 142" class="cls-2" x="1159.07" y="855.7" width="23.8" height="223.44"/>
+        <rect id="Rectangle_143" data-name="Rectangle 143" class="cls-2" x="1895.34" y="231.54" width="23.8" height="173.21"/>
+      </g>
+    </g>
+  </g>
+  <g id="Pipes" class="cls-5">
+    <g class="cls-3">
+      <g id="Groupe_52-2" data-name="Groupe 52-2">
+        <path id="Tracé_620-2" data-name="Tracé 620-2" class="cls-2" d="m1035.18,551.4c-30.4,0-55.04,24.64-55.04,55.04h0s23.8,0,23.8,0c.02-17.25,13.99-31.22,31.24-31.24v-23.8Z"/>
+        <rect id="Rectangle_118-2" data-name="Rectangle 118-2" class="cls-2" x="1038.88" y="543.79" width="12.24" height="36.11"/>
+        <path id="Tracé_621-2" data-name="Tracé 621-2" class="cls-2" d="m947.44,874.35c30.4,0,55.04-24.64,55.04-55.04h0s-23.8,0-23.8,0c-.02,17.25-13.99,31.22-31.24,31.24v23.8Z"/>
+        <rect id="Rectangle_119-2" data-name="Rectangle 119-2" class="cls-2" x="931.5" y="845.85" width="12.24" height="36.11"/>
+        <rect id="Rectangle_120-2" data-name="Rectangle 120-2" class="cls-2" x="972.53" y="610.33" width="36.11" height="12.24"/>
+        <path id="Tracé_622-2" data-name="Tracé 622-2" class="cls-2" d="m701.86,649.81c0-30.4-24.64-55.04-55.04-55.04h0v23.8c17.25.02,31.22,13.99,31.24,31.24h23.8Z"/>
+        <rect id="Rectangle_121-2" data-name="Rectangle 121-2" class="cls-2" x="630.69" y="587.16" width="12.24" height="36.11"/>
+        <rect id="Rectangle_122-2" data-name="Rectangle 122-2" class="cls-2" x="1147.09" y="543.79" width="12.24" height="36.11"/>
+        <rect id="Rectangle_123-2" data-name="Rectangle 123-2" class="cls-2" x="1054.83" y="549.94" width="88.56" height="23.8"/>
+        <rect id="Rectangle_124-2" data-name="Rectangle 124-2" class="cls-2" x="972.53" y="803.37" width="36.11" height="12.24"/>
+        <path id="Tracé_623-2" data-name="Tracé 623-2" class="cls-2" d="m679.89,821.22c0,30.4,24.64,55.04,55.04,55.04h0v-23.8c-17.25-.02-31.22-13.99-31.24-31.24h-23.8Z"/>
+        <rect id="Rectangle_125-2" data-name="Rectangle 125-2" class="cls-2" x="672.28" y="805.28" width="36.11" height="12.24"/>
+        <rect id="Rectangle_126-2" data-name="Rectangle 126-2" class="cls-2" x="738.64" y="846.31" width="12.24" height="36.11"/>
+        <rect id="Rectangle_127-2" data-name="Rectangle 127-2" class="cls-2" x="978.68" y="626.45" width="23.8" height="173.21"/>
+        <rect id="Rectangle_128-2" data-name="Rectangle 128-2" class="cls-2" x="777.83" y="281.06" width="36.11" height="12.24"/>
+        <rect id="Rectangle_129-2" data-name="Rectangle 129-2" class="cls-2" x="783.99" y="297" width="23.8" height="247.59"/>
+        <rect id="Rectangle_130-2" data-name="Rectangle 130-2" class="cls-2" x="672.28" y="653.51" width="36.11" height="12.24"/>
+        <path id="Tracé_624-2" data-name="Tracé 624-2" class="cls-2" d="m571.77,563.48c0,30.4,24.64,55.04,55.04,55.04h0v-23.8c-17.25-.02-31.22-13.99-31.24-31.24h-23.8Z"/>
+        <rect id="Rectangle_131-2" data-name="Rectangle 131-2" class="cls-2" x="413.44" y="215.35" width="12.24" height="36.11"/>
+        <path id="Tracé_625-2" data-name="Tracé 625-2" class="cls-2" d="m354.52,190.32c0,30.4,24.64,55.04,55.04,55.04h0v-23.8c-17.25-.02-31.22-13.99-31.24-31.24h-23.8Z"/>
+        <rect id="Rectangle_132-2" data-name="Rectangle 132-2" class="cls-2" x="776.34" y="548.3" width="36.11" height="12.24"/>
+        <path id="Tracé_626-2" data-name="Tracé 626-2" class="cls-2" d="m752.67,619.46c30.4,0,55.04-24.64,55.04-55.04h0s-23.8,0-23.8,0c-.02,17.25-13.99,31.22-31.24,31.24v23.8Z"/>
+        <rect id="Rectangle_133-2" data-name="Rectangle 133-2" class="cls-2" x="565.23" y="547.54" width="36.11" height="12.24"/>
+        <path id="Tracé_627-2" data-name="Tracé 627-2" class="cls-2" d="m627.07,488.89c-30.4,0-55.04,24.64-55.04,55.04h0s23.8,0,23.8,0c.02-17.25,13.99-31.22,31.24-31.24v-23.8Z"/>
+        <rect id="Rectangle_134-2" data-name="Rectangle 134-2" class="cls-2" x="736.82" y="590.14" width="12.24" height="36.11"/>
+        <path id="Tracé_628-2" data-name="Tracé 628-2" class="cls-2" d="m678.17,564.42c0,30.4,24.64,55.04,55.04,55.04h0v-23.8c-17.25-.02-31.22-13.99-31.24-31.24h-23.8Z"/>
+        <rect id="Rectangle_135-2" data-name="Rectangle 135-2" class="cls-2" x="630.77" y="482.35" width="12.24" height="36.11"/>
+        <path id="Tracé_629-2" data-name="Tracé 629-2" class="cls-2" d="m701.76,544.3c0-30.4-24.64-55.04-55.04-55.04h0v23.8c17.25.02,31.22,13.99,31.24,31.24h23.8Z"/>
+        <rect id="Rectangle_136-2" data-name="Rectangle 136-2" class="cls-2" x="736.72" y="215.41" width="12.24" height="36.11"/>
+        <path id="Tracé_630-2" data-name="Tracé 630-2" class="cls-2" d="m807.71,277.35c0-30.4-24.64-55.04-55.04-55.04h0v23.8c17.25.02,31.22,13.99,31.24,31.24h23.8Z"/>
+        <rect id="Rectangle_137-2" data-name="Rectangle 137-2" class="cls-2" x="349.05" y="174.11" width="36.11" height="12.24"/>
+        <path id="Tracé_631-2" data-name="Tracé 631-2" class="cls-2" d="m378.32,170.41c0-30.4-24.64-55.04-55.04-55.04h0v23.8c17.25.02,31.22,13.99,31.24,31.24h23.8Z"/>
+        <rect id="Rectangle_138-2" data-name="Rectangle 138-2" class="cls-2" x="672.18" y="548" width="36.11" height="12.24"/>
+        <rect id="Rectangle_139-2" data-name="Rectangle 139-2" class="cls-2" x="678.44" y="669.46" width="23.8" height="132.12"/>
+        <rect id="Rectangle_140-2" data-name="Rectangle 140-2" class="cls-2" x="429.38" y="221.56" width="303.63" height="23.8"/>
+        <rect id="Rectangle_141-2" data-name="Rectangle 141-2" class="cls-2" x="307.34" y="109.58" width="12.24" height="36.11"/>
+        <rect id="Rectangle_142-2" data-name="Rectangle 142-2" class="cls-2" x="22.44" y="115.73" width="281.2" height="23.8"/>
+        <rect id="Rectangle_143-2" data-name="Rectangle 143-2" class="cls-2" x="754.58" y="852.01" width="173.21" height="23.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -14,12 +14,14 @@
 
 body {
     background: var(--base-color);
+
     height: 100vh;
 }
 
 header,
 main {
     scroll-snap-align: none center;
+
 }
 
 header {
@@ -41,20 +43,86 @@ header nav {
     padding: 1rem;
 }
 
-header>nav>img {
+header>img {
     margin-right: auto;
+    width: 100%;
+    height: auto;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
     padding: 0.5rem;
-    align-items:center;
+    position: relative;
 }
 
-main>* {
-    /* flex-grow:1; */
+main::before {
+    content: '';
+    background-image: url('/public/marteau.svg');
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    width: 8rem;
+    height: 8rem;
+    transform: rotate(215deg);
+}
+
+
+
+@media screen and (min-width:769px) {
+    header>img {
+        margin: 0;
+        height: 50px;
+        width: auto;
+    }
+
+    header {
+        flex-direction: row;
+        height: auto;
+        align-items: center;
+    }
+
+    header strong {
+        display: none;
+    }
+
+    header nav {
+        flex-direction: row;
+    }
+
+    main {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+
+
+        background-image: url('/public/pipe_background.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        height: 100%;
+    }
+
+    footer {
+        background: transparent;
+        position: absolute;
+        bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+section {
+    min-width: 18rem;
+    max-width: 35rem;
+}
+
+form {
+    max-width: 29rem;
 }
 
 h1,
@@ -66,7 +134,7 @@ label {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    margin:2rem 0;
+    margin: 2rem 0;
 }
 
 a {
@@ -76,17 +144,10 @@ a {
 
 p {
     line-height: 1.7rem;
-    margin-bottom:1.7rem;
+    margin-bottom: 1.7rem;
 }
 
-section {
-    min-width: 18rem;
-    max-width: 35rem;
-}
 
-form {
-    max-width: 29rem;
-}
 
 label {
     display: block;
@@ -114,31 +175,4 @@ button {
     cursor: pointer;
     border-radius: 17px;
     font-weight: bold;
-}
-
-footer {
-    text-align: center;
-    margin-top:4rem;
-}
-
-@media screen and (min-width:769px) {
-    header {
-        flex-direction: row;
-        height: auto;
-        align-items: center;
-    }
-
-    header strong {
-        display: none;
-    }
-
-    header nav {
-        flex-direction: row;
-    }
-
-    main {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
 }
