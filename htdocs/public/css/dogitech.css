@@ -33,7 +33,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
 }
 
 header nav {
@@ -68,8 +67,6 @@ main::before {
     transform: rotate(215deg);
 }
 
-
-
 @media screen and (min-width:769px) {
     header>img {
         margin: 0;
@@ -98,7 +95,6 @@ main::before {
         display: flex;
         gap: 2rem;
 
-
         background-image: url('/public/pipe_background.svg');
         background-size: contain;
         background-repeat: no-repeat;
@@ -125,6 +121,7 @@ form {
     max-width: 29rem;
 }
 
+/* content */
 h1,
 h2,
 label {
@@ -148,7 +145,7 @@ p {
 }
 
 
-
+/* forms, inputs, button */
 label {
     display: block;
     margin-top: 2rem;
