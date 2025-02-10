@@ -1,47 +1,12 @@
-<?php
-
-use Brevo\Client\Configuration;
-use Brevo\Client\Api\TransactionalEmailsApi;
-use Brevo\Client\Model\SendSmtpEmail;
-
-if($_SERVER['REQUEST_METHOD'] === 'POST') {
-    require_once(__DIR__ . '/vendor/autoload.php');
-
-    $name = htmlentities($_POST['name']);
-    $message = htmlentities($_POST['message']);
-    // Configure API key authorization: api-key
-    $config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
-
-    $apiInstance = new TransactionalEmailsApi(
-        new \GuzzleHttp\Client(),
-        $config
-    );
-
-    $sendSmtpEmail = new SendSmtpEmail([
-        'sender' => ['name' => 'dogitech.be', 'email' => 'nicolas@dogitech.be'],
-        'to' => [['email' => 'nicolas@dogitech.be']],
-        // 'to' => [['email' => 'touch@hexmakina.be']],
-        'subject' => 'Tich, y a du monde au site qui veut te parler',
-        'htmlContent' => sprintf('<html><body><strong>Coordonnées:</strong><br>%s<br><br><strong>Message:</strong><br>%s</body></html>', $name, $message)
-    ]);
-
-    try {
-        $result = $apiInstance->sendTransacEmail($sendSmtpEmail);
-    } catch (Exception $e) {
-        echo 'Exception when calling TransactionalEmailsApi->sendTransacEmail: ', $e->getMessage(), PHP_EOL;
-    }
-}
-?>
-
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <title>DogiTech - Services d'électricité et de plomberie</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/dogitech.css">
-
+    <link rel="canonical" href="https://dogitech.be" />
     <!-- Common Meta Tags -->
     <meta name="description" content="Chez DogiTech, nous sommes fiers d'offrir des services de qualité qui répondent à vos besoins électriques et sanitaires.">
     <meta name="keywords" content="DogiTech, services, électricité, plomberie">
@@ -67,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         <strong>Fondé par Nicolas Dogimont</strong>
         <nav>
             <a href="mailto:nicolas@dogitech.be">nicolas@dogitech.be</a>
-            <a href="tel:0472 20 31 04">0472 20 31 04</a>
+            <a href="tel:0470 20 31 04">0470 20 31 04</a>
             <a href="">BE 0799 847 845</a>
         </nav>
     </header>
@@ -83,18 +48,49 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <section>
             <h2>Contactez nous</h2>
-            <form method="POST">
-                <label for="name">Vos coordonnées</label>
-                <input type="text" id="name" name="name" required>
+            <form id="contact-form">
+                <label for="from_name">Vos coordonnées</label>
+                <input type="text" id="from_name" name="from_name" required>
+                <label for="from_address">Votre e-mail</label>
+                <input type="email" id="from_address" name="from_address" required>
                 <label for="message">Votre message</label>
                 <textarea id="message" name="message" required></textarea>
-                <button>Envoyer</button>
+                <button id="button" type="submit">Envoyer</button>
             </form>
+
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+                emailjs.init('5ZzMjDJHpLUATsc5O')
+                const btn = document.getElementById('button');
+
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault();
+
+                    btn.value = 'Sending...';
+
+                    const serviceID = 'default_service';
+                    const templateID = 'template_czg9edu';
+
+                    emailjs.sendForm(serviceID, templateID, this)
+                        .then(() => {
+                            btn.value = 'Send Email';
+                            alert('Sent!');
+                        }, (err) => {
+                            btn.value = 'Send Email';
+                            alert(JSON.stringify(err));
+                        });
+                });
+            </script>
+
         </section>
     </main>
 
     <footer>
-        <p>&copy; <?= date('Y') ?> Nicolas Dogimont</p>
+        <p>&copy; <script>
+                document.write(new Date().getFullYear())
+            </script> Nicolas Dogimont</p>
     </footer>
 </body>
 
