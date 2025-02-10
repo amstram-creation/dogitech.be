@@ -1,5 +1,5 @@
 :root {
-    --pri-color: #489DA2;
+    --pri-color: #2e7579;
     --sec-color: #434343;
     --ter-color: #AFAFAF;
     --base-color: #FFFFFF;
@@ -29,6 +29,7 @@ header {
     background-color: var(--pri-color);
     line-height: 2rem;
 
+    padding: 0 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,9 +39,11 @@ header {
 header nav {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
     padding: 1rem;
+    font-size:2rem;
 }
+
 
 header>img {
     margin-right: auto;
@@ -86,6 +89,9 @@ main::before {
 
     header nav {
         flex-direction: row;
+        font-size:1.3rem;
+        gap:2rem;
+        font-weight:normal;
     }
 
     main {
