@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <link rel="stylesheet" href="/public/css/dogitech.css">
+    <link rel="stylesheet" href="public/css/dogitech.css">
     <link rel="canonical" href="https://dogitech.be" />
     
     <!-- Common Meta Tags -->
@@ -29,73 +29,187 @@
     <meta name="twitter:description" content="Chez DogiTech, nous sommes fiers d'offrir des services de qualité qui répondent à vos besoins électriques et sanitaires.">
     <meta name="twitter:image" content="https://dogitech.be/public/logo.png">
 </head>
-
 <body>
-    <header>
-        <img src="/public/logo.svg" alt="Logo dogitech.be">
-        <strong>Fondé par Nicolas Dogimont</strong>
-        <nav>
-            <a href="mailto:nicolas@dogitech.be">nicolas@dogitech.be</a>
-            <a href="tel:0470 20 31 04">0470 20 31 04</a>
-            <a href="">BE 0799 847 845</a>
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+    <div class="sheet">
+        <header role="banner" aria-label="Cartouche">
+            <h1>NICOLAS DOGIMONT — ÉLECTRICIEN / PLOMBIER</h1>
+            <div class="title-block" aria-hidden="true">
+                <div><span class="label">DOC</span> ND-SERVICES</div>
+                <div><span class="label">RÉV</span> A</div>
+                <div><span class="label">TÉL</span> 0470 20 31 04</div>
+            </div>
+        </header>
+
+        <nav role="navigation" aria-label="Navigation principale">
+            <ul>
+                <li><a href="#services" aria-describedby="services-desc">Services</a></li>
+                <li><a href="#tarifs" aria-describedby="tarifs-desc">Tarifs</a></li>
+                <li><a href="#nicolas" aria-describedby="nicolas-desc">À propos</a></li>
+                <li><a href="#contact" aria-describedby="contact-desc">Contact</a></li>
+            </ul>
         </nav>
-    </header>
 
-    <main>
-        <section>
-            <h1>Plomberie, électricité<br>et petits travaux</h1>
+        <main id="main" role="main">
+            <section class="hero" aria-labelledby="hero-title">
+                <h2 class="sr-only">En-tête</h2>
+                <h1 id="hero-title">Ça ne marche pas ? J'arrange ça.</h1>
+                <p>ÉLECTRICITÉ
+                    <span class="status-dot" aria-hidden="true"></span>
+                    PLOMBERIE
+                    <span class="status-dot" aria-hidden="true"></span>
+                    PETITS TRAVAUX
+                </p>
 
-            <p>Chez DogiTech, nous sommes dédiés à répondre efficacement à vos besoins en électricité et plomberie. Fondée par le passionné Nicolas, notre entreprise s'engage à offrir des solutions fiables et sensées.</p>
-            <p>Que ce soit pour l'installation de circuits électriques, la réparation de fuites ou le remplacement de tuyauterie, nous garantissons un service rapide, efficace et conforme aux normes de sécurité.</p>
-            <p>Fiers de contribuer à la communauté locale, nous sommes convaincus de votre satisfaction. Pour toute question ou pour un devis gratuit, contactez-nous. Nous sommes à votre service !</p>
-        </section>
+                <a class="phone" href="tel:0470203104" aria-label="Appeler Nicolas au 0470 20 31 04">0470 20 31 04</a>
+            </section>
 
-        <section>
-            <h2>Contactez nous</h2>
-            <form id="contact-form">
-                <label for="from_name">Vos coordonnées</label>
-                <input type="text" id="from_name" name="from_name" required>
-                <label for="from_address">Votre e-mail</label>
-                <input type="email" id="from_address" name="from_address" required>
-                <label for="message">Votre message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button id="button" type="submit">Envoyer</button>
-            </form>
+            <section id="services" aria-labelledby="services-title">
+                <span id="services-desc" class="sr-only">Détails des services proposés</span>
+                <h2 id="services-title">Ce que je répare</h2>
 
-            <script type="text/javascript"
-                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                <div class="services" role="list">
+                    <article role="listitem" aria-labelledby="elec-title">
+                        <h3 id="elec-title">Électricité</h3>
+                        <p>Disjoncteur qui saute, prises mortes, lumières qui clignotent, appareils qui chauffent
+                            anormalement.</p>
+                        <p><strong>20 ans d'expérience.</strong> Diagnostic précis, réparation nette.</p>
+                    </article>
 
-            <script type="text/javascript">
-                emailjs.init('5ZzMjDJHpLUATsc5O')
-                const btn = document.getElementById('button');
+                    <article role="listitem" aria-labelledby="plomb-title">
+                        <h3 id="plomb-title">Plomberie</h3>
+                        <p>Fuites, canalisations bouchées, odeurs, coups de bélier. Robinets, chasses d'eau,
+                            chauffe-eau.</p>
+                        <p><strong>J'arrive outillé.</strong> Pas d'achats superflus.</p>
+                    </article>
 
-                document.getElementById('contact-form').addEventListener('submit', function(event) {
-                    event.preventDefault();
+                    <article role="listitem" aria-labelledby="travaux-title">
+                        <h3 id="travaux-title">Petits travaux</h3>
+                        <p>Fixations murales, petites réparations, serrurerie simple, diagnostics.</p>
+                        <p><strong>Clarté garantie.</strong> Si je ne fais pas, je le dis.</p>
+                    </article>
+                </div>
+            </section>
 
-                    btn.value = 'Sending...';
+            <section id="tarifs" aria-labelledby="tarifs-title">
+                <span id="tarifs-desc" class="sr-only">Principe tarifaire (pas d'affichage de prix)</span>
+                <h2 id="tarifs-title">Mes tarifs</h2>
 
-                    const serviceID = 'default_service';
-                    const templateID = 'template_czg9edu';
+                <article class="about" aria-labelledby="principe-title">
+                    <div class="reality" role="complementary" aria-label="Informations pratiques">
+                        <p><strong>week-end & soirée +50 %</strong></p>
+                        <p>Urgences possibles — j'ai aussi une famille.</p>
+                        <p><strong>Aucun frais caché.</strong> Le prix annoncé est le prix payé.</p>
+                    </div>
+                    <div aria-labelledby="principe-title">
+                        <h3 id="principe-title">Le principe</h3>
+                        <p><strong>Bon marché • Rapide • Bien fait</strong> — choisissez-en deux.</p>
+                        <ul>
+                            <li>Bon marché + Rapide → moins bien fait</li>
+                            <li>Rapide + Bien fait → plus cher</li>
+                            <li>Bon marché + Bien fait → plus long</li>
+                        </ul>
+                        <p>Mon cap: <strong>Bon marché + Bien fait</strong>.</p>
+                    </div>
+                </article>
+            </section>
 
-                    emailjs.sendForm(serviceID, templateID, this)
-                        .then(() => {
-                            btn.value = 'Send Email';
-                            alert('Sent!');
-                        }, (err) => {
-                            btn.value = 'Send Email';
-                            alert(JSON.stringify(err));
-                        });
-                });
-            </script>
+            <section id="nicolas" aria-labelledby="nicolas-title">
+                <span id="nicolas-desc" class="sr-only">Présentation de Nicolas Dogimont</span>
+                <h2 id="nicolas-title">Qui est Nicolas</h2>
 
-        </section>
-    </main>
+                <article class="about" aria-labelledby="about-title">
+                    <img class="photo" alt="Nicolas Dogimont avec ses outils de travail"
+                        src="https://pbs.twimg.com/media/FoYWbAnXsCctG-y?format=jpg&name=small" width="220"
+                        height="260" />
+                    <div>
+                        <h3 id="about-title">Nicolas Dogimont, 37 ans</h3>
+                        <p>Électricien de formation, plombier par pratique.</p>
+                        <p>J'explique ce qui casse, pourquoi, et comment éviter la rechute.</p>
+                        <p><strong>Je déteste</strong> : promesses, retards, diagnostics inventés.</p>
+                        <p><strong>J'apprécie</strong> : matériel qui fonctionne, clients sereins, café partagé.</p>
+                        <p>« Il faut rêver les mots. » — Moi, je répare les objets.</p>
+                        <p><strong>Entreprise agréée : BE 0799 847 845</strong></p>
+                    </div>
+                </article>
 
-    <footer>
-        <p>&copy; <script>
-                document.write(new Date().getFullYear())
-            </script> Nicolas Dogimont</p>
-    </footer>
+                <h3>Témoignages clients</h3>
+                <div class="temoignages" role="list">
+                    <blockquote role="listitem" aria-labelledby="temo1">
+                        <p id="temo1">« À l'heure, précis, propre. Mon mari a parlé voitures pendant la réparation. »
+                        </p>
+                        <cite><strong>Marie, Uccle</strong></cite>
+                    </blockquote>
+                    <blockquote role="listitem" aria-labelledby="temo2">
+                        <p id="temo2">« Enfin quelqu'un d'honnête. Rien de superflu, juste la réparation. »</p>
+                        <cite><strong>Jean, Schaerbeek</strong></cite>
+                    </blockquote>
+                    <blockquote role="listitem" aria-labelledby="temo3">
+                        <p id="temo3">« Il a expliqué l'origine de la panne. On sait quoi surveiller. »</p>
+                        <cite><strong>Sophie, Saint-Gilles</strong></cite>
+                    </blockquote>
+                </div>
+            </section>
+
+            <section id="contact" aria-labelledby="contact-title">
+                <span id="contact-desc" class="sr-only">Moyens de contact avec Nicolas</span>
+                <h2 id="contact-title">Comment me joindre</h2>
+
+                <div class="contact-methods" role="list">
+                    <article role="listitem" aria-labelledby="tel-title">
+                        <h4 id="tel-title">Téléphone</h4>
+
+
+                        <p><strong><a class="phone" href="tel:0470203104">0470 20 31 04 <span class="status-dot"
+                                        aria-hidden="true"></span></a></strong></p>
+                        <p>Je décroche ou je rappelle sous 2 h.</p>
+                    </article>
+                    <article role="listitem" aria-labelledby="sms-title">
+                        <h4 id="sms-title">SMS / WhatsApp</h4>
+                        <p>Envoyez une photo du problème.</p>
+                        <p>Je confirme si c'est dans mes compétences.</p>
+                    </article>
+                    <article role="listitem" aria-labelledby="email-title">
+                        <h4 id="email-title">Email</h4>
+                        <p><strong><a href="mailto:nicolas@dogitech.be">nicolas@dogitech.be</a></strong></p>
+                        <p>Pour les cas complexes à expliquer.</p>
+                    </article>
+                </div>
+
+                <form method="POST" action="#" role="form" aria-labelledby="form-title">
+                    <h3 id="form-title">Formulaire de contact</h3>
+                    <fieldset>
+                        <legend>Informations personnelles</legend>
+                        <label for="nom">Votre nom <span aria-label="obligatoire">*</span></label>
+                        <input type="text" id="nom" name="nom" required aria-required="true" />
+
+                        <label for="tel">Votre téléphone <span aria-label="obligatoire">*</span></label>
+                        <input type="tel" id="tel" name="tel" required aria-required="true" />
+
+                        <label for="email">Votre email</label>
+                        <input type="email" id="email" name="email" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Description du problème</legend>
+                        <label for="probleme">Décrivez précisément le problème <span
+                                aria-label="obligatoire">*</span></label>
+                        <textarea id="probleme" name="probleme" required aria-required="true"
+                            aria-describedby="probleme-aide"
+                            placeholder="Où, depuis quand, ce qui se passe exactement…"></textarea>
+                        <p id="probleme-aide">Plus c'est précis, mieux je peux aider.</p>
+                    </fieldset>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+
+        <footer role="contentinfo">
+            <span class="stamp">DogiTech <span class="status-dot" aria-hidden="true"></span> BE 0799 847 845</span>
+        </footer>
+    </div>
 </body>
 
 </html>
